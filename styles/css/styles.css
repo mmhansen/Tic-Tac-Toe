@@ -1,0 +1,19 @@
+.card-content {
+  text-align: center; }
+
+.card-action {
+  text-align: center; }
+
+#settings {
+  position: absolute;
+  margin-left: 100px; }
+  #settings i {
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+#restart {
+  position: absolute;
+  left: 25px; }
+
+/*# sourceMappingURL=styles.css.map */
