@@ -2,18 +2,19 @@
   text-align: center; }
 
 .card-action {
-  text-align: center; }
+  text-align: center;
+  position: relative; }
 
-#settings {
+.fixed-action-btn {
   position: absolute;
-  margin-left: 100px; }
-  #settings i {
-    position: absolute;
-    top: 0;
-    left: 0; }
+  bottom: 12px;
+  right: 20px; }
 
-#restart {
-  position: absolute;
-  left: 25px; }
+.card-content h1 {
+  margin-bottom: 0; }
+.card-content h4 {
+  padding: 0;
+  margin: 0;
+  visibility: hidden; }
 
 /*# sourceMappingURL=styles.css.map */
