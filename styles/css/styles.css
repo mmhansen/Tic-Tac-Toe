@@ -18,7 +18,16 @@
 
 .menu {
   text-align: center; }
-  .menu .card-content {
-    padding-bottom: 1px; }
+  .menu .col.s4 {
+    padding: 0; }
+  .menu #tie, .menu #loss {
+    font-size: 2em; }
+
+#modal1 .modal-content {
+  text-align: center;
+  font-size: 2.5em; }
+
+.card .card-content {
+  padding-bottom: 1px; }
 
 /*# sourceMappingURL=styles.css.map */

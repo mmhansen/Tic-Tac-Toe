@@ -26,8 +26,27 @@
 
 .menu {
 	text-align: center;
-	& .card-content {
-		padding-bottom: 1px;
+	& .col.s4 {
+		padding: 0;
 	}
+
+	& #tie, #loss {
+		font-size: 2em;
+	}
+}
+
+
+#modal1 {
+	& .modal-content {
+		text-align: center;
+		font-size: 2.5em;
+		& a {
+
+		}
+	}
+}
+
+.card .card-content {
+	padding-bottom: 1px;
 }
 
