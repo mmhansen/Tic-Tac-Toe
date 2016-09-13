@@ -8,7 +8,7 @@ $(document).ready(function(){
 var icon = true;
 $('#tie').click(function(){
 	if (icon) {
-		$(this).html(app.tie);
+		$(this).html(app.win);
 		icon = false;
 	} else {
 		$(this).html('<i class="material-icons">not_interested</i>')
@@ -233,6 +233,7 @@ app.winningPermutations = [[1,2,3],[4,5,6],[7,8,9],[1,4,7],[2,5,8],[3,6,9],[1,5,
 
 			console.log("comp win")
 			app.loss++;
+			$('#loss').html(app.loss);
 
 		}
 		 if (app.rtos(solution[0]) == app.userChar && app.rtos(solution[1]) == app.userChar && app.rtos(solution[2]) == app.userChar){
@@ -240,6 +241,7 @@ app.winningPermutations = [[1,2,3],[4,5,6],[7,8,9],[1,4,7],[2,5,8],[3,6,9],[1,5,
 
 			console.log("user win")
 			app.win++;
+			$('#tie').html(app.win);
 		}
 
 
